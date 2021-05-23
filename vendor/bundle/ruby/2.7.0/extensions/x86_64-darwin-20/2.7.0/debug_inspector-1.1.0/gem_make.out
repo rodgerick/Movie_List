@@ -1,0 +1,15 @@
+current directory: /Users/rodgerickheninger/Desktop/Movie_list/Movie_list/vendor/bundle/ruby/2.7.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+/Users/rodgerickheninger/.rbenv/versions/2.7.3/bin/ruby -I /Users/rodgerickheninger/.rbenv/versions/2.7.3/lib/ruby/2.7.0 -r ./siteconf20210523-36306-5tercd.rb extconf.rb
+creating Makefile
+
+current directory: /Users/rodgerickheninger/Desktop/Movie_list/Movie_list/vendor/bundle/ruby/2.7.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/rodgerickheninger/Desktop/Movie_list/Movie_list/vendor/bundle/ruby/2.7.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/rodgerickheninger/Desktop/Movie_list/Movie_list/vendor/bundle/ruby/2.7.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20210523-36306-1fq04ih
