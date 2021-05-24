@@ -1,11 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const Genres = (props) => {
-  return(
-    <div>
-      <h1> All Movies! </h1>
-    </div>
-  )
-}
+  const { genres } = props;
 
-export default Genres
+  const renderGenres = () => {
+    return genres.map((genre) => {
+      return <h3>{genre.name}</h3>;
+    });
+  };
+
+  return (
+    <div>
+      <h1> All Movie Genres! </h1>
+      {renderGenres()}
+    </div>
+  );
+};
+
+export default Genres;

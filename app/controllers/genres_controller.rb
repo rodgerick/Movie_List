@@ -8,7 +8,7 @@ class GenresController < ApplicationController
   end
 
   def show
-    render component "Genre", props: {genre: @genre}
+    render component: "Genre", props: {genre: @genre}
   end
 
   def new
